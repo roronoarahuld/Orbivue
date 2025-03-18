@@ -4,8 +4,8 @@
     "slug": "Orbivue",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "icon": "./assets/logo/icon.png",
+    "scheme": "orbivue",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -13,8 +13,8 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/logo/adaptive-icon.png",
+        "backgroundColor": "#CC672E"
       }
     },
     "web": {
@@ -27,10 +27,19 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
+          "image": "./assets/logo/splash-icon.png",
           "imageWidth": 200,
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "backgroundColor": "#CC672E",
+          "dark": {
+            "backgroundColor": "#CC672E"
+          }
+        }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": ["node_modules/@expo-google-fonts/poppins/Poppins_300Light_Italic.ttf"]
         }
       ]
     ],
