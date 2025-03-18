@@ -28,6 +28,8 @@ Make sure you have the following installed:
 git clone https://github.com/yourusername/orbivue.git
 cd orbivue
 
+```sh
 npm install
 
+```sh
 npx expo start
